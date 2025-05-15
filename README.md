@@ -7,7 +7,7 @@ To get started with the RedCourier project, follow these steps:
 1. **Clone the Repository**:
    First, clone the repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/yourusername/RedCourier.git
+   git clone https://github.com/eMVee-NL/RedCourier.git
    cd RedCourier
    ```
 
